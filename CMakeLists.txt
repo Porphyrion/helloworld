@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(helloworld VERSION "$ENV{TRAVIS_BUILD_NUMBER}")
+project(helloworld VERSION $ENV{TRAVIS_BUILD_NUMBER})
 
 configure_file(version.h.in version.h)
 
