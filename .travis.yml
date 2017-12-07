@@ -7,4 +7,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-  - curl -T helloworld-0.1.1-Linux.deb -porphyrion:$BINTRAY_API_KEY "https://api.bintray.com/content/porphyrion/otus/otus.lessons.01.01/$TRAVIS_BUILD_NUMBER/helloworld-0.1.1-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
+  - curl -T helloworld-0.1.1-Linux.deb -porphyrion:$BINTRAY_API_KEY "https://api.bintray.com/content/porphyrion/otus/otus.lessons.01.01/helloworld-0.1.1-Linux.deb;deb_distribution=trusty;deb_component=main;deb_architecture=amd64;publish=1"
